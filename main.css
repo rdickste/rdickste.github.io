@@ -31,12 +31,52 @@ ul, ol, dl, figure,
   margin-bottom: 0.938em;
   margin-top: 0.938em; }
 
+.about-text {
+  text-align: block;
+}
+
+.reviews-text{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 0.938em;
+  margin-top: 0.938em;
+  margin-left: 1.875em;
+}
+
+
 /**
  * Images
  */
-img {
+  
+ img {
   max-width: 100%;
   vertical-align: middle; }
+
+  #berlin-skyline{
+ background-image: url("http://030mm-photography.com/wp-content/uploads/2015/07/berlin-skyline-alexanderplatz-sunset-sonnenuntergang-tv-tower-fernsehturm.jpg");
+  background-size: contain;
+  position: relative;
+  top: -18em;
+  background-repeat: no-repeat;
+  height: 30%;
+  width: 50%;
+  margin-left: 21em;
+  margin-bottom: 0;
+}
+
+#camp-david {
+  float: right;
+  position: relative;
+  margin-top: -10em;
+}
+
+#san-diego-skyline {
+background-image: 
+url("http://aaronchang.com/wp-content/uploads/images/products/p-19219-4171_SD_Skyline_Dusk_Blue_8505_24x96_web.jpg");
+margin-top: -1.72em;
+background-repeat: no-repeat;
+}
 
 /**
  * Figures
@@ -61,8 +101,12 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
-  text-align: center; }
+  font-weight: 400;}
+
+  .left-h1 {
+  text-align: left;
+  margin-left: 1.875em;
+}
 
 /**
  * Links
@@ -84,12 +128,10 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-left: 15px;
   font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic; }
+  letter-spacing: -1px; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -117,19 +159,6 @@ pre {
 /**
  * Wrapper
  */
-.wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px; }
-  @media screen and (max-width: 800px) {
-    .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
-      padding-right: 15px;
-      padding-left: 15px; } }
 
 /**
  * Clearfix

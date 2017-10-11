@@ -51,8 +51,44 @@ ul, ol, dl, figure,
   
  img {
   max-width: 100%;
-  vertical-align: middle; }
+  vertical-align: middle;
+  height: auto; }
 
+  @media only screen and (min-width: 1200px) {
+  	#camp-david img {
+  		float: right;
+  		 clear: left;
+  		position: relative;
+  		margin-top: -15em;
+  		max-width: 50%;
+  		max-height: 80%;
+  	}
+  }
+
+  /* @media only screen and (min-width: 1000px) and (max-width: 1095px) {
+  	#camp-david img {
+  		float: right;
+  		 clear: left;
+  		position: relative;
+  		margin-top: -15em;
+  		max-width: 30%;
+  		max-height: 50%;
+  	}
+  } */
+
+  /* @media only screen and (max-device-width: 760px) {
+		#camp-david img {
+  		 float: right;
+  		 clear: left;
+  		position: relative;
+  		margin-top: -15em;
+  		max-width: 30%;
+  		max-height: 50%;
+  	}
+  } */
+
+
+ 
   #berlin-skyline{
  background-image: url("http://030mm-photography.com/wp-content/uploads/2015/07/berlin-skyline-alexanderplatz-sunset-sonnenuntergang-tv-tower-fernsehturm.jpg");
   background-size: contain;
@@ -65,16 +101,21 @@ ul, ol, dl, figure,
   margin-bottom: 0;
 }
 
-#camp-david {
+/* #camp-david {
   float: right;
+  clear: left;
   position: relative;
-  margin-top: -10em;
-}
+  margin-top: -15em;
+  margin-right: 0em;
+  max-width: 30%;
+  max-height: 50%;
+  background-size: contain;
+} */
 
 #san-diego-skyline {
 background-image: 
-url("http://127.0.01/RED/Desktop/SanDiego_panorama.jpg");
-margin-top: -6em;
+url("/assets/SanDiego_panorama.jpg");
+margin-top: 5.45em;
 background-repeat: no-repeat;
 }
 

@@ -76,7 +76,7 @@ ul, ol, dl, figure,
   	}
   } */
 
-  @media only screen and (max-width: 480px) {
+  @media (max-width: 470px) {
 		#camp-david img {
   		 float: none;
   		 clear: left;

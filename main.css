@@ -85,37 +85,64 @@ ul, ol, dl, figure,
   		max-width: 100%;
   		max-height: 100%;
   	}
-    #berlin-skyline img{
-      position: relative;
-      float: none;
-      background-position: center;
+  }
+    
+   @media (max-width: 500px) {
+  #berlin-skyline img {
+  position: fixed;
+  top: 50%;
+  left: 5%;
+  width: 80%;
+  height: 45%;
+  background-repeat: no-repeat;
     }
   }
 
 
- 
-  #berlin-skyline{
- background-image: url("http://030mm-photography.com/wp-content/uploads/2015/07/berlin-skyline-alexanderplatz-sunset-sonnenuntergang-tv-tower-fernsehturm.jpg");
-  background-size: contain;
-  position: relative;
-  top: -18em;
+  @media (max-width: 700px) {
+    #berlin-skyline{
+  position: fixed;
+  top: 50%;
+  left: 10%;
+  width: 80%;
+  height: 45%;
   background-repeat: no-repeat;
-  height: 30%;
-  width: 50%;
-  margin-left: 21em;
-  margin-bottom: 0;
+}
 }
 
-/* #camp-david {
-  float: right;
-  clear: left;
+ /*fix this media query!!!*/
+  @media (max-width: 700px) and (max-height: 550px) {
+    #berlin-skyline{
+  position: fixed;
+  top: 50%;
+  left: 10%;
+  width: 50%;
+  height: 30%;
+  background-repeat: no-repeat;
+}
+}
+
+  @media (max-width: 1000px) {
+    #berlin-skyline{
   position: relative;
-  margin-top: -15em;
-  margin-right: 0em;
-  max-width: 30%;
-  max-height: 50%;
-  background-size: contain;
-} */
+  margin-top: -18em;
+  left: 15%;
+  width: 65%;
+  height: 35%;
+  background-repeat: no-repeat;
+}
+}
+
+  @media (max-width: 2000px) {
+    #berlin-skyline{
+  position: relative;
+  margin-top: -18em;
+  left: 25%;
+  width: 50%;
+  height: 35%;
+  background-repeat: no-repeat;
+}
+}
 
 #san-diego-skyline {
 background-image: 

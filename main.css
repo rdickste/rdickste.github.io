@@ -87,7 +87,7 @@ ul, ol, dl, figure,
   	}
   }
     
-   @media (max-width: 500px) {
+  @media (max-width: 500px) {
   #berlin-skyline img {
   position: fixed;
   top: 50%;
@@ -98,23 +98,17 @@ ul, ol, dl, figure,
     }
   }
 
+   @media (max-height: 600px) {
+  #berlin-skyline img {
+  display: none;
+  visibility: hidden;
+    }
+  } 
 
-  @media (max-width: 700px) {
+  @media (min-width: 500px) and (max-width: 700px) {
     #berlin-skyline{
   position: fixed;
-  top: 50%;
-  left: 10%;
-  width: 80%;
-  height: 45%;
-  background-repeat: no-repeat;
-}
-}
-
- /*fix this media query!!!*/
-  @media (max-width: 700px) and (max-height: 550px) {
-    #berlin-skyline{
-  position: fixed;
-  top: 50%;
+  top: 40%;
   left: 10%;
   width: 50%;
   height: 30%;
@@ -122,9 +116,52 @@ ul, ol, dl, figure,
 }
 }
 
-  @media (max-width: 1000px) {
+ @media (min-width: 700px) and (max-width: 750px) {
     #berlin-skyline{
-  position: relative;
+  position: fixed;
+  top: 40%;
+  left: 10%;
+  width: 50%;
+  height: 30%;
+  background-repeat: no-repeat;
+}
+}
+ @media (min-width: 750px) and (max-width: 760px) {
+    #berlin-skyline{
+  position: fixed;
+  top: 40%;
+  left: 10%;
+  width: 50%;
+  height: 30%;
+  background-repeat: no-repeat;
+}
+}
+
+ @media (min-width: 760px) and (max-width: 765px) {
+    #berlin-skyline{
+  position: fixed;
+  top: 40%;
+  left: 10%;
+  width: 50%;
+  height: 30%;
+  background-repeat: no-repeat;
+}
+}
+
+ @media (min-width: 800px) and (max-width: 899px) {
+    #berlin-skyline{
+  position: fixed;
+  margin-top: -18em;
+  left: 10%;
+  width: 50%;
+  height: 30%;
+  background-repeat: no-repeat;
+}
+}
+
+ @media (min-width: 900px) and (max-width: 1000px) {
+    #berlin-skyline{
+  position: fixed;
   margin-top: -18em;
   left: 15%;
   width: 65%;

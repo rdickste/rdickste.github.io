@@ -218,6 +218,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 1.875em;
 }
 
+.CV-heading {
+  text-align: center;
+}
+
+.entire-CV {
+  margin-left: 1.875em;
+}
 /**
  * Links
  */
